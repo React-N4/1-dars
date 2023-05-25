@@ -21,6 +21,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
+  align-items: center;
 }
 
 .link_item {
@@ -40,6 +41,8 @@ body {
 
 .nav_link {
   margin-left: 100px;
+  display: flex;
+  align-items: center; 
 }
 
 .link_item li {
@@ -96,7 +99,7 @@ body {
   color: white;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .Drop h1 {
