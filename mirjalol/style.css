@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #212529;
+}
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.header {
+  background: #1e2125;
+  color: #fff;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.link_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_icon {
+  padding: 30px 0;
+}
+.socials {
+  padding: 30px 0;
+}
+.phone {
+  padding: 30px 0;
+}
+
+.nav_link {
+  margin-left: 100px;
+}
+
+.link_item li {
+  margin-left: 40px;
+  list-style: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.nav_select {
+  background: #1e2125;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  border: none;
+}
+.nav_btn {
+  background: #6a369c;
+  padding: 40px 30px;
+  margin-left: 50px;
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+.hum {
+  display: none;
+}
+
+
+/* Header ended */
+
+.links {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  width: 350px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.green {
+  color: #04ff14;
+}
+
+.con {
+  margin-bottom: 150px;
+}
+
+.content {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.Drop h1 {
+  margin-bottom: 20px;
+}
+
+.Drop{
+  width: 2000px;
+  margin-right: 30px;
+}
+
+.Drop p {
+  color: #afafaf;
+}
+
+.Triler h1 {
+  margin-bottom: 20px;
+}
+
+.Triler p {
+  color: #afafaf;
+}
+
+/* Content section ended */
+
+
+
+.About__us h1 {
+  text-align: center;
+  color: white;
+}
+.pictures {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* Images secton ended */
+
+
+.location iframe {
+  margin: 50px 0;
+  height: 300px;
+  width: 100%;
+}
+
+
+/* Location section endede */
+
+.all {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  line-height: 26px;
+}
+
+.img {
+  padding-top: 10px;
+}
+
+.all h3 {
+  color: #afafaf;
+}
+
+
+/* Footer ended */
+
+
+
+.footeer {
+  margin-top: 50px;
+  background-color: #272b30;
+  color: #afafaf;
+  padding: 40px 0;
+}
+.Contact {
+  display: flex;
+  justify-content: space-between;
+}
+.box6 {
+  padding-top: 10px;
+}
+span {
+  padding-right: 20px;
+}
+
+/* Footer part 2 ended */
