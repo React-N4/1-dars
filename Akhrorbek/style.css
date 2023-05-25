@@ -149,6 +149,9 @@
     display: flex;
     margin: 0 auto;
   }
+  .texts_section_black{
+    background-color: #212529;
+  }
   .my_icons{
     padding: 25px;
   }
