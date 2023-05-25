@@ -9,18 +9,18 @@
   color: #fff;
 }
 .container {
-  max-width: 1920px;
+  /* max-width: 1140px; */
   width: 100%;
   margin: 0 auto;
   display: flex;
-  /* justify-content: space-between; */
-  /* padding: 33px; */
+  justify-content: space-between;
+  padding: 33px;
   align-items: center;
   cursor: pointer;
 }
 .link_item {
   display: flex;
-  margin-left: 357px;
+  /* margin-left: 357px; */
   align-items: center;
 }
 .socials {
@@ -57,3 +57,4 @@
   font-size: 18px;
   line-height: 22px;
 }
+
