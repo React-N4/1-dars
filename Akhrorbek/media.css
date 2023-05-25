@@ -1,12 +1,211 @@
-@media (max-width: 1400px ){
-   
-}
-@media (max-width: 1200px ){
- 
-}
-@media (max-width: 992px ){
-    
-}
-@media (max-width: 768px ){
-    
-}
+@media only screen and (max-width: 576px){
+    .Date_navbar{
+      width: 100%;
+    }
+    .header{
+        padding: 3px 5px;
+    }
+    .phone{
+      display: none;
+    }
+    .socials{
+      display: none;
+    }
+    .link_item, .phone{
+      display: none;
+      padding: 100px;
+    }
+    .menu{
+      display: block;
+      width: 100%;
+      text-align: end;
+    }
+    .navbar_ul_li_pruple{
+      display: none;
+      width: 200px;
+    }
+    .navbar_ul_li_a_purple{
+      display: block;
+    }
+    .container{
+      padding: 20px;
+    }
+    .white_links{
+      font-size: 20px;
+    }
+    .green_links{
+      font-size: 20px;
+    }
+    .boxes{
+      display: block;
+      padding: 100px;
+      margin: 0 auto;
+    }
+    .box-1{
+      width: 100%;
+    }
+    .box-1_images{
+      width: 100%;
+    }
+    .footer_text{
+      display: block;
+    }
+    .footer_text_1, .footer_text_2{
+      display: block;
+    }
+    .footer_gray_p{
+      display: inline-block;
+    }
+    .footer_gray_img{
+      margin-left: 0px;
+      padding: 27px;
+    }
+    .footer_text_top{
+      display: block;
+    }
+    .about__text{
+        width: 96%;
+    }
+    .nav_btn{
+        display: none;
+    }
+  }
+  @media only screen and (max-width: 768px){
+    .Date_navbar{
+      width: 100%;
+    }
+    .phone{
+      display: none;
+    }
+    .socials{
+      display: none;
+    }
+    .link_item, .phone{
+      display: none;
+    }
+    .menu{
+      display: block;
+      width: 100%;
+      text-align: end;
+    }
+    .navbar_ul_li_a_purple{
+      display: block;
+    }
+    .container{
+      padding: 20px;
+    }
+    .white_links{
+      font-size: 20px;
+    }
+    .green_links{
+      font-size: 20px;
+    }
+    .boxes{
+      margin: 0 auto;
+    }
+    .box-1{
+      width: 100%;
+      padding: 20px;
+    }
+    .box-1_images{
+      width: 100%;
+    }
+    .footer_text_1, .footer_text_2{
+      display: block;
+    }
+    .text_1{
+      padding: 30px;
+    }
+    .footer_gray_p{
+      display: inline-block;
+    }
+    .footer_gray_img{
+      margin-left: 0;
+      padding: 27px;
+    }
+    .wrapper{
+        width: 90%;
+    }
+  }
+  @media only screen and (max-width: 992px){
+    .Date_navbar{
+      width: 100%;
+    }
+    .phone{
+        display: none;
+      width: 100%;
+    }
+    .link_item{
+      display: none;
+    }
+    .nav__hamburger{
+        display: block;
+    }
+    .socials{
+        display: none;
+    }
+    .menu{
+      display: block;
+      width: 100%;
+      text-align: end;
+    }
+    .navbar_ul_li_a_purple{
+      display: block;
+    }
+    .container{
+      padding: 20px;
+    }
+    .white_links{
+      font-size: 20px;
+    }
+    .green_links{
+      font-size: 20px;
+    }
+    .boxes{
+      margin: 0 auto;
+    }
+    .box-1{
+      width: 100%;
+      padding: 20px;
+    }
+    .box-1_images{
+      width: 100%;
+    }
+    .footer_text_gray{
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 1300px){
+    .Date_navbar{
+      width: 100%;
+    }
+    .navbar_ul_li{
+      margin-left: 5px;
+    }
+    .phone_about{
+      width: 100%;
+      padding: 0;
+      margin-top: 30px;
+    }
+    .navbar_ul{
+      margin-left: 0;
+      width: 100%;
+      max-width: 100%;
+      padding-top: 28px;
+    }
+    .navbar_ul_li_a_purple{
+      display: block;
+    }
+    .container{
+      padding: 20px;
+    }
+    .white_links{
+      font-size: 20px;
+    }
+    .green_links{
+      font-size: 20px;
+    }
+  }
+  
+
+  
