@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+  }
+  a{
+    text-decoration: none;
+  }
+  .header {
+    background: #1e2125;
+    color: #fff;
+  }
+  .container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+  .link_item {
+    display: flex;
+    
+    align-items: center;
+  }
+  .socials {
+    padding: 0 20px;
+  }
+  .socials a {
+    margin-left: 5px;
+  }
+  .phone a {
+    margin-right: 10px;
+  }
+  .link_item li {
+    margin-left: 20px;
+    list-style: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav_select {
+    background: #1e2125;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    border: none;
+  }
+  .nav_btn {
+    background: #6a369c;
+    padding: 30px 30px;
+    margin-left: 50px;
+    color: #fff;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .nav__hamburger{
+    display: none;
+  }
+
+  .hero__list{
+    list-style:square;
+  }
+  .wrapper{
+   width: 60%;
+  }
+  .section__content {
+    background-color: #212529;
+    color: #fff;
+  }
+  .section__content a{
+    color: lightgray;
+  }
+  .navbar li{
+    list-style: none;
+    
+  }
+  .navbar{
+    display: flex;
+    padding: 50px 0;
+  }
+  .navbar li a{
+    margin-right: 30px;
+  }
+  .navbar li a:hover{
+    color: chartreuse;
+  }
+
+  .hero__heading{
+    font-style: bold;
+    font-size:  32px;
+    line-height: 42px;
+    margin-bottom: 20px;
+    
+  }
+  .hero__text{
+    margin-bottom: 50px;
+  }
+  .hero__list{
+    margin-left: 20px;
+    margin-bottom: 80px;
+  }
+  .hero__link{
+    line-height: 2rem;
+  }
+  .hero__link:hover{
+    color: chartreuse;
+  }
+  .hero__title{
+    font-size: 24px;
+    font-style: bold;
+    line-height: 31px;
+    margin-bottom: 20px;
+  }
+  .hero__about{
+    background-color: #32363a;
+    padding: 40px 0;
+  }
+  .about__heading{
+    font-size: 24px;
+    font-style: bold;
+    line-height: 31px;
+    margin-bottom: 20px;
+  }
+  .about__text{
+    margin-bottom: 20px;
+  }
+  .about__btn{
+    padding: 20px 35px;
+    background-color: chartreuse;
+    color: #111;
+    border: none;
+  }
+
+  
