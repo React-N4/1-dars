@@ -237,9 +237,6 @@ p {
   width: 100%;
 }
 
-.fcFooter {
-  padding: 0 100px;
-}
 .fcFooter .container .holder {
   padding: 70px 100px;
   display: flex;
@@ -283,6 +280,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #272B30;
 }
 .fcFooter .container .rights p {
   font-style: normal;
