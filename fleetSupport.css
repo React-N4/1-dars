@@ -1,1 +1,297 @@
-/*# sourceMappingURL=fleetSupport.css.map */
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  background: #212529;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.fcHeader {
+  background: #1e2125;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.fcHeader__left {
+  display: flex;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+}
+.fcHeader__left .site-logo {
+  width: 175px;
+  height: 35px;
+}
+.fcHeader__left .messangers {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.fcHeader__left .messangers img {
+  width: 28px;
+  height: 28px;
+}
+.fcHeader__left .phone {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.fcHeader__left .phone img {
+  width: 20px;
+  height: 20px;
+}
+.fcHeader__left .phone span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  color: #F3F3F3;
+}
+.fcHeader__right {
+  display: flex;
+  gap: 50px;
+}
+.fcHeader__right .links {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.fcHeader__right .links li .link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #F3F3F3;
+}
+.fcHeader__right .myButton {
+  padding: 40px 30px;
+  background: #6A369C;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #F3F3F3;
+}
+
+.fcInfos {
+  padding: 50px 100px 80px 100px;
+}
+.fcInfos .container .links {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  padding: 0;
+}
+.fcInfos .container .links li a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  color: #F3F3F3;
+}
+.fcInfos .container .links li a i {
+  width: 6px;
+  height: 12px;
+  margin-left: 19px;
+}
+.fcInfos .container .links li .green {
+  color: #04FF14;
+}
+.fcInfos .container .grid-container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  gap: 80px 30px;
+}
+.fcInfos .container .grid-container .grid-item h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 130%;
+  color: #F3F3F3;
+}
+.fcInfos .container .grid-container .grid-item p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  color: #AFAFAF;
+}
+.fcInfos .container .grid-container .grid-item h3 {
+  margin-top: 50px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  color: #F3F3F3;
+}
+.fcInfos .container .grid-container .grid-item .ulist {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.fcInfos .container .grid-container .grid-item .ulist span {
+  width: 5px;
+  height: 5px;
+  background: #04FF14;
+  border-radius: 50%;
+}
+.fcInfos .container .grid-container .grid-item .ulist:nth-of-type(1) {
+  margin-top: 30px;
+}
+
+.fcConditions {
+  background: #272B30;
+  padding: 60px 100px;
+}
+.fcConditions .container h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  color: #F3F3F3;
+}
+.fcConditions .container .fcConditions__contents {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fcConditions .container .fcConditions__content p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  color: #AFAFAF;
+}
+.fcConditions .container .fcConditions__content h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  color: #F3F3F3;
+  margin-top: 10px;
+}
+.fcConditions .container .apply {
+  margin-top: 30px;
+  background: #04FF14;
+  padding: 20px 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  color: #212529;
+}
+
+.fcPartners {
+  padding: 120px 100px;
+}
+.fcPartners .container h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  color: #F3F3F3;
+  text-align: center;
+}
+.fcPartners .container .logos {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fcmap {
+  width: 100%;
+}
+.fcmap iframe {
+  width: 100%;
+}
+
+.fcFooter {
+  padding: 0 100px;
+}
+.fcFooter .container .holder {
+  padding: 70px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.fcFooter .container .holder .contactUs h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  color: #F3F3F3;
+}
+.fcFooter .container .holder .contactUs .messangers {
+  margin-top: 27px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.fcFooter .container .holder .contactUs .messangers img {
+  width: 28px;
+  height: 28px;
+}
+.fcFooter .container .holder .address p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  color: #AFAFAF;
+}
+.fcFooter .container .holder .address h5 {
+  margin-top: 14px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  color: #F3F3F3;
+}
+.fcFooter .container .rights {
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fcFooter .container .rights p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #AFAFAF;
+}
+.fcFooter .container .rights img {
+  width: 146px;
+  height: 41px;
+}/*# sourceMappingURL=fleetSupport.css.map */
