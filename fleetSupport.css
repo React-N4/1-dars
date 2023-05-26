@@ -71,7 +71,7 @@ p {
 .fcHeader__left .phone span {
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 130%;
   color: #F3F3F3;
 }
@@ -87,7 +87,7 @@ p {
 .fcHeader__right .links li .link {
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 22px;
   color: #F3F3F3;
 }
@@ -96,7 +96,7 @@ p {
   background: #6A369C;
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 22px;
   color: #F3F3F3;
 }
@@ -113,7 +113,7 @@ p {
 .fcInfos .container .links li a {
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 130%;
   color: #F3F3F3;
 }
@@ -134,14 +134,14 @@ p {
 .fcInfos .container .grid-container .grid-item h2 {
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 25px;
   line-height: 130%;
   color: #F3F3F3;
 }
 .fcInfos .container .grid-container .grid-item p {
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 130%;
   color: #AFAFAF;
 }
@@ -149,7 +149,7 @@ p {
   margin-top: 50px;
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 19px;
   line-height: 130%;
   color: #F3F3F3;
 }
@@ -176,7 +176,7 @@ p {
 .fcConditions .container h3 {
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 19px;
   line-height: 130%;
   color: #F3F3F3;
 }
@@ -189,14 +189,14 @@ p {
 .fcConditions .container .fcConditions__content p {
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 130%;
   color: #AFAFAF;
 }
 .fcConditions .container .fcConditions__content h5 {
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 130%;
   color: #F3F3F3;
   margin-top: 10px;
@@ -207,7 +207,7 @@ p {
   padding: 20px 30px;
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 130%;
   color: #212529;
 }
@@ -218,7 +218,7 @@ p {
 .fcPartners .container h3 {
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 19px;
   line-height: 130%;
   color: #F3F3F3;
   text-align: center;
@@ -228,6 +228,9 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.fcPartners .container .logos img {
+  height: 30px;
 }
 
 .fcmap {
@@ -246,7 +249,7 @@ p {
 .fcFooter .container .holder .contactUs h3 {
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 19px;
   line-height: 130%;
   color: #F3F3F3;
 }
@@ -263,7 +266,7 @@ p {
 .fcFooter .container .holder .address p {
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 130%;
   color: #AFAFAF;
 }
@@ -271,7 +274,7 @@ p {
   margin-top: 14px;
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 130%;
   color: #F3F3F3;
 }
@@ -285,7 +288,7 @@ p {
 .fcFooter .container .rights p {
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 22px;
   color: #AFAFAF;
 }
